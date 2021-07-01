@@ -96,6 +96,12 @@ module API
             name: :wiki_page_channel,
             type: String,
             desc: 'The name of the channel to receive wiki_page_events notifications'
+          },
+          {
+            required: false,
+            name: :vulnerability_channel,
+            type: String,
+            desc: 'The name of the channel to receive vulnerability_events notifications'
           }
         ].freeze
       end
@@ -155,6 +161,12 @@ module API
             name: :wiki_page_events,
             type: Boolean,
             desc: 'Enable notifications for wiki_page_events'
+          },
+          {
+            required: false,
+            name: :vulnerability_events,
+            type: Boolean,
+            desc: 'Enable notifications for vulnerability_events'
           }
         ].freeze
       end

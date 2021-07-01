@@ -14037,7 +14037,8 @@ CREATE TABLE integrations (
     comment_detail smallint,
     inherit_from_id bigint,
     alert_events boolean,
-    group_id bigint
+    group_id bigint,
+    vulnerability_events boolean
 );
 
 CREATE SEQUENCE integrations_id_seq

@@ -61,7 +61,12 @@ module Integrations
     end
 
     def self.supported_events
-      SUPPORTED_EVENTS
+      SUPPORTED_EVENTS + extra_events
+    end
+
+    # To be overridden either by inherited classes or in EE
+    def self.extra_events
+      []
     end
 
     def fields
@@ -253,3 +258,5 @@ module Integrations
     end
   end
 end
+
+Integrations::BaseChatNotification.prepend_mod_with('Integrations::BaseChatNotification')

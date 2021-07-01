@@ -41,7 +41,8 @@ Example response:
     "pipeline_events": true,
     "wiki_page_events": true,
     "job_events": true,
-    "comment_on_event_enabled": true
+    "comment_on_event_enabled": true,
+    "vulnerability_events": true
   },
   {
     "id": 76,
@@ -61,7 +62,8 @@ Example response:
     "pipeline_events": true,
     "wiki_page_events": true,
     "job_events": true,
-    "comment_on_event_enabled": true
+    "comment_on_event_enabled": true,
+    "vulnerability_events": true
   }
 ]
 ```
@@ -1153,6 +1155,8 @@ Parameters:
 | `tag_push_events` | boolean | false | Enable notifications for tag push events |
 | `wiki_page_channel` | string | false | The name of the channel to receive wiki page events notifications |
 | `wiki_page_events` | boolean | false | Enable notifications for wiki page events |
+| `vulnerability_channel` | string | false | The name of the channel to receive vulnerability events notifications |
+| `vulnerability_events` | boolean | false | Enable notifications for vulnerability events |
 
 ### Delete Slack service
 

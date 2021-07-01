@@ -67,6 +67,7 @@ The following triggers are available for Slack notifications:
 - **Wiki page**: Triggered when a wiki page is created or updated.
 - **Deployment**: Triggered when a deployment starts or finishes.
 - **Alert**: Triggered when a new, unique alert is recorded.
+- **Vulnerability**: Triggered when a new, unique vulnerability is reported.
 
 ## Troubleshooting
 
