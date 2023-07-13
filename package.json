@@ -51,7 +51,7 @@
     "raven-js": "^3.14.0",
     "raw-loader": "^0.5.1",
     "react-dev-utils": "^0.5.2",
-    "select2": "3.5.2-browserify",
+    "select2": "4.0.6",
     "sql.js": "^0.4.0",
     "three": "^0.84.0",
     "three-orbit-controls": "^82.1.0",
